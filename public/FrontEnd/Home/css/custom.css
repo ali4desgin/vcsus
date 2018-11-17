@@ -1,0 +1,124 @@
+.create-post-button 
+{
+    background-color:#19b9e7;border-color: #19b9e7;color: #fff;font-weight: bold;cursor: pointer;
+}
+
+.create-post-button:hover
+{
+    background-color:#5dcdec;border-color: #19b9e7;color: #fff;font-weight: bold;cursor: pointer;
+}
+
+
+.error_with_red_border {
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.errors {
+    margin: 10px 0;
+    font-size: 16px
+}
+
+
+/*posts */
+.posts {
+    margin-top: 22px;
+}
+
+
+.posts .post {
+    -webkit-transition: all 0.7s ease;
+    margin-top: 15px
+
+}
+
+.posts .post:hover {
+
+    background: #EEE
+}
+.posts .post:hover .toolbar {
+
+    color: #19b9e7
+}
+
+.posts .post .toolbar {
+    -webkit-transition: all 0.7s ease;
+    margin-top: 19px;
+    MARGIN-BOTTOM: -5px;
+    padding: 5px;
+    display: block;
+    border-top: 1px solid #EEE;
+    padding-top: 8px;
+}
+
+.posts .post .tab_bar {
+    margin-bottom: 15PX;
+    margin-top: -11px;
+    margin-right: -5px;
+    margin-left: -5px;
+    border-bottom: 1px solid #EEE
+}
+
+.posts .post:hover .tab_bar .row div {
+
+    background: #FFF
+}
+.posts .post .tab_bar .row div {
+    padding: 5px;
+    cursor: pointer;
+  
+
+}
+.posts .post .tab_bar .row div:first-child {
+    border-left:1px solid #AAA;
+   
+}
+
+.posts .post .tab_bar .row .active {
+    background:#EEE;
+
+}
+
+.posts .post .post_info img {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 1px 10px 1px #b3b9bf;
+}
+
+.posts .post .post_info .left {
+
+    padding-right: 10px;
+}
+
+.posts .post .post_info .studentname {  
+    color: #19b9e7
+}
+.posts .post .post_info .date
+{
+    display: block;
+    font-size: 10px;
+    color: #908c8c;
+}
+.posts .post .post_info .left .options
+{
+    font-size: 14px;
+    color: #AAA;
+}
+
+.posts .post .post_info .left .options i {
+    margin-left: 5px
+}
+
+
+.posts .post .post_content
+{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: justify;
+    overflow: hidden;
+    word-wrap: unset;
+    word-break: break-word;
+}
